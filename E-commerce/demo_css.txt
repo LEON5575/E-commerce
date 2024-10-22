@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+  font-family: "Madimi One", sans-serif;
+}
+
+nav{
+
+    background-color: rgba(128, 128, 128, 0.466);
+    display: grid;
+    grid-template-columns: 20% 40% 20%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+nav>div>img{
+  width: 30%;
+  margin-left: 1rem;
+}
+nav>div>ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+nav>div>ul>li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+nav>div>ul>li>a:hover{
+    background-color: palevioletred;
+    color: burlywood;
+}
+body>nav>#right1{
+    display: flex;
+    justify-content: end;
+}
+nav>#right1>a{
+    margin-right: 1rem;
+}
+nav>#right1>a>button{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 72, 0, 0.571);
+    color: black;
+}
+nav>#right1>a>button:active{
+    background-color: yellowgreen;
+}
+/* nav>#left1{
+    width: 20%;
+}
+nav>#main{
+    width: 40%;
+}
+nav>#right1{
+    width: 20%;
+} */
+
+.design>div{
+    /* width: 20%; */
+    background-color:rgba(0, 0, 139, 0.584);
+    /* border-radius: 5px; */
+}
+.design>div>img{
+    width: 100%;
+    height: 300px;
+}
+.design>div>h2,h3,h4{
+    color: white;
+    padding-left: 1rem;
+}
+.design>div>button{
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    height: 3rem;
+    border-radius: 5px;
+}
+.design{
+    background-color: rgba(0, 0, 139, 0.561);
+    display: grid;
+    grid-template-columns:repeat(4,20%);
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#popup{
+    width: 20%;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0%;
+    right: -100%;
+    height:100vh;
+    padding: 1rem;
+    transition: 2s;
+    overflow-y: scroll;
+}
+#static>h3{
+text-align: right;
+font-size: 2rem;
+margin: 0;
+cursor: pointer;
+}
+#static>h2{
+    text-align: center;
+    }
+
+
+.cart-design{
+    display: grid;
+    grid-template-columns: 20% 30% 10% 10%;
+    justify-content: space-between;
+}
+.cart-design>div>img{
+    width: 100%;
+}
+.cart-design>div>input{
+    width: 50%;
+}
+.cart-design>div>h2,h3,h4{
+    color: darkslateblue;
+}
+#footer>button{
+    width: 100%;
+    height: 3rem;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+#footer>h2>span{
+    color: snow;
+}

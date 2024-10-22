@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+ display: flex;
+ justify-content: center;
+}
+main > form{
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 1%;
+    padding: 50px 35px;
+}
+main > form >#img{
+    display: flex;
+    justify-content: center;
+    margin-top: -20%;
+}
+main > form > #img > img{
+    width: 60%;
+    margin: 101px 0px 0px 0px;
+    
+ }
+ input,button,a{
+    display: flex;
+    justify-content: center;
+ }
+ main > form > #ed1{
+    display: flex;
+    justify-content: center;
+ }
+ main > form > #ed2{
+    display: flex;
+    justify-content: center;
+ }
+ main > form > input{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 4px ;
+    border: 1px solid rgb(182, 171, 171);
+    padding-left: 5px;
+    position: sticky;
+    margin-left: 10%;
+
+}
+main > form > label{
+    margin-left: 10%;
+}
+main > form > button{
+    width: 60%;
+    height: 30px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+   margin-left: 15%;
+}
+main > form > #cen{
+    display: flex;
+    
+
+}
+main > form > a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 65%;
+    padding-top: 7%;
+}a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40%;
+}
+button{
+    margin-top: 20px;
+
+}
+i{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 7%;
+}
+#lock
+{
+    margin-right: 0%;
+}
+main > form > #ed3{
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 34%;
+}
+main > form > #ed4{
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 34%;
+}
+#ed5{
+    position: absolute;
+    margin-top: 0.3%;
+    margin-left: 6%;
+}
+span{
+    color: red;
+}

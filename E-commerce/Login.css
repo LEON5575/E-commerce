@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main > form{
+    /* background-color: aquamarine; */
+    width: 20%;
+    border: 1px solid rgb(125, 118, 118);
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 20px 40px;
+}
+main > form > #imgcont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+main > form > #imgcont > img{
+   width: 50%;
+}
+input,button,a{
+    display: block;
+}
+main > form > input{
+    width: 95%;
+    height: 33px;
+    margin-bottom: 8px;
+    border-radius: 4px ;
+    border: 1px solid rgb(182, 171, 171);
+    padding-left: 5px;
+}
+main > form > button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(52,180,227);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+main > form > a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+main > form >#pos{
+    margin-top: 20px;
+    position: relative;
+    height: 20px;
+
+}
+main > form >#pos > h3{
+    position: absolute;
+    top: -140%;
+    /* top: -2200%; */
+    left: 45%;
+    background-color: white;
+}

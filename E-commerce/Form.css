@@ -1,0 +1,47 @@
+.fa-user-tie{
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+#fname-cont{
+    position: relative;
+}
+#fname{
+    height: 20px;
+    padding-left: 20px
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    /* background-color: aqua; */
+}
+#cont{
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: lavender;
+    border: 2px solid black;
+    border-radius: 6px;
+ }
+ label{
+    display: block;
+    margin-top: 0.3rem;
+ }
+ #btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+ }
+ /* .fa-eye{
+    position:relative;
+    top: 56%;
+    left: 54.3%;
+
+ } */
+ span{
+    color: rgba(255, 0, 0, 0.652);
+ }
